@@ -1,11 +1,6 @@
 # sonarqube-toif
 SonarQube Adapter for TOIF  
 
-Acknowledgements:
------------------------------------------------
-SonarLint adapter internally uses Jsoup plugin,(https://jsoup.org/) to parse the HTML input of the SonarLint adapter.
-
-
 Contents:
 -----------------------------------------------
 This directory contains the source code for SonarLint Adapter (com.kdmanalytics.toif.sonarqube) to run with TOIF. It contains the configuration files such as SonarQubeAdapter.java, Activator.java     
@@ -57,7 +52,8 @@ inputfile	path				Name of the file extracted from the path
 
 Integration of JSoup Plugin with TOIF
 -----------------------------------------------
-We have included the following dependency into our .pom files for running JSoup 1.10.1 package
+SonarLint adapter internally uses Jsoup plugin,(https://jsoup.org/) to parse the HTML input of the SonarLint adapter.
+The following dependency was included into our .pom files for running JSoup 1.10.1 package
 
 <dependency>
   <!-- jsoup HTML parser library @ http://jsoup.org/ -->
