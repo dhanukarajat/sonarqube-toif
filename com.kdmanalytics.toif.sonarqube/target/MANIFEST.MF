@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.kdmanalytics.toif.sonarqube;singleton:=true
+Export-Package: com.kdmanalytics.toif.adaptor
+Bundle-Name: Open TOIF SonarQube
+Bundle-Version: 2.3.1
+Require-Bundle: org.slf4j.api;bundle-version="1.7.2",org.eclipse.core.
+ runtime,com.kdmanalytics.toif.common;bundle-version="[2.0.0,3.0.0)",c
+ om.kdmanalytics.toif.framework;bundle-version="[2.0.0,3.0.0)"
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.kdmanalytics.toif.sonarqube.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Vendor: KDM Analytics Inc.
+Import-Package: org.apache.commons.lang3
+
