@@ -1,5 +1,4 @@
-# sonarqube-toif
-SonarQube Adapter for TOIF  
+# Sonarlint Adapter for TOIF  
 
 Contents:
 -----------------------------------------------
